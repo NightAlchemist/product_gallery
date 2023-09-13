@@ -16,15 +16,12 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->decimal('price', 10, 2);
-            $table->boolean('discount')->default(false);
             $table->decimal('price_after_discount', 10, 2)->nullable();
             $table->integer('reviews')->nullable();
             $table->integer('total_sales')->nullable();
             $table->integer('stock')->nullable();
-            $table->string('model');
-            $table->string('shipping');
             $table->string('tags')->nullable();
-            $table->string('image_path')->nullable();
+            $table->string('image_path', 600)->nullable();
             $table->timestamps();
         });
     }

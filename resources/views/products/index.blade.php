@@ -1,3 +1,5 @@
+@csrf
+
 @extends('layouts.layout')
 
 @section('title', 'Productos')
