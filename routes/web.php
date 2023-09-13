@@ -18,7 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::controller(ProductController::class)->group(function() {
-    Route::get('products', 'index');
-    Route::get('products/{product}', 'show');
+Route::controller(ProductController::class)->group(function () {
+    Route::get('products', 'index')->name('products.index'); 
+    Route::get('products/{product}', 'show')->name('products.show');
+
 });
+
+// You can add other routes outside of the group if needed

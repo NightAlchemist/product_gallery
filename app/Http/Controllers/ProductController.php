@@ -8,7 +8,8 @@ use App\Models\Product;
 class ProductController extends Controller
 {
     public function index(){
-        return view('products.index');
+        $products = Product::take(8)->get(); // Limit to 8 items
+        return view('products.index', compact('products'));
     }
 
     public function show($product){

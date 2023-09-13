@@ -121,7 +121,7 @@
                     <img class="h-full w-full rounded-md object-cover max-w-lg mx-auto" src={{ $img = "https://images.unsplash.com/photo-1578262825743-a4e402caab76?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" }} alt="Nike Air">
                 </div>
                 <div class="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
-                    <h3 class="text-white font-bold uppercase text-lg">Nike Air</h3>
+                    <h3 class="text-white font-bold camelcase text-lg">Nike Air - Blue Running Shoes (Limited Edition)</h3>
                     <p class="text-white text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti eaque corrupti quo vero consequatur molestiae nulla debitis fugit itaque, illo minima porro illum esse tempore repellendus temporibus quos tenetur?</p>
                     <span class="text-gray-300 mt-3 text-2xl">$125</span>
                     <hr class="my-3">
